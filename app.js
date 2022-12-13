@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(express.static("resources"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//create Schema
+//create Schemaaaa
 const todoListSchema = new mongoose.Schema({
     name: {
         type: String,
